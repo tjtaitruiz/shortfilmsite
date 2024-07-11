@@ -3,7 +3,10 @@ body{
     margin: 0;
 }
 #background{
-    color: black;
+    background-color: black;
+    grid-column: 1/11;
+    grid-row: 1/7;
+    margin: 0;
 }
 header{
     background-color: #dda0ea;
@@ -43,7 +46,6 @@ nav a :hover{
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
     grid-template-rows: 50% 50%;
-    margin-top: -100px;
 }
 #hero-img{
     width: 100%;
@@ -63,33 +65,61 @@ nav a :hover{
     margin-top: 120px;
     font-size: 3em;
 }
-
 .msg{
-    background-color: #66B0AF;
+    background-color: #11e4dd;
     line-height: 1.5em;
     padding: 35px;
-    grid-column: 6/10;
-    grid-row: 6/7;
+    grid-column: 5/9;
+    grid-row: 3/4;
     box-shadow: 5px 5px 10px #6f7364;
 }
+.msg h2{
+    font-family: "Courier Prime", Courier, monospace;
+}
 .msg p{
-    font-size: .8em;
+    font-size: 1em;
     padding-bottom: 15px;
+    font-family: Georgia, Helvetica, sans-serif;
+
 }
 .frame{
     width: 100%;
-    grid-column-start: 2;
-    grid-column-end: 6;
-    grid-row: 5/8;
-    box-shadow: 5px 5px 10px #6f7364;
+    grid-column: 3/7;
+    grid-row: 2/5;
+    width: 100%;
 }
 .home-grid{
+    margin-top: -75px;
     display: grid;
     grid-template-columns: repeat(10,1fr);
+    grid-template-rows: repeat(6, 1fr)
 }
 main section{
     text-align: center;
 }
-main section img{
-    box-sizing: border-box
+#paragraph{
+    font-family: "Courier Prime", Helvetica, sans-serif;
+    font-size: 20px;
+    color: white;
+    grid-column: 2/10;
+    grid-row: 5/6
+}
+footer{
+    background-color: #dda0ea;
+    padding: 25px 50px;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+footer a{
+    text-decoration: none;
+}
+footer p {
+    font-size: 1.2em;
+}
+footer .social img{
+    padding-top: 15px;
+} 
+footer p a:hover{
+    text-decoration: underline;
 }
