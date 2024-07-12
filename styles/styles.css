@@ -94,6 +94,9 @@ nav a :hover{
     grid-template-columns: repeat(10,1fr);
     grid-template-rows: repeat(6, 1fr)
 }
+main{
+    background-color: black;
+}
 main section{
     text-align: center;
 }
