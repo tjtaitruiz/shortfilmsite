@@ -99,6 +99,7 @@ main section{
 }
 #paragraph{
     font-family: "Courier Prime", Helvetica, sans-serif;
+    text-align: center;
     font-size: 20px;
     color: white;
     grid-column: 2/10;
