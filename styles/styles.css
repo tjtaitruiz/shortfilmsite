@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 body{
     margin: 0;
+    background-color: black;
 }
 #background{
     background-color: black;
@@ -24,7 +25,7 @@ nav a{
     padding: 35px;
 }
 nav a :hover{
-    background-color: #11e4dd;
+    background-color: #0FD9D2;
     color: white;
 }
 .logo{
@@ -34,7 +35,7 @@ nav a :hover{
     padding: 5px;
 }
 .home-title{
-    font-size: 2em;
+    font-size: 3em;
     margin-top: 10px;
 }
 #hero-box{
@@ -54,7 +55,7 @@ nav a :hover{
 #hero-msg{
     grid-column: 2/3;
     grid-row: 1/2;
-    margin-top: 100px;
+    margin-top: 120px;
 }
 #hero-msg h1, #hero-msg h4{
     text-align: center;
@@ -67,11 +68,11 @@ nav a :hover{
 }
 .msg{
     background-color: #11e4dd;
+    opacity: 95%;
     line-height: 1.5em;
     padding: 35px;
     grid-column: 5/9;
     grid-row: 3/4;
-    box-shadow: 5px 5px 10px #6f7364;
 }
 .msg h2{
     font-family: "Courier Prime", Courier, monospace;
@@ -93,9 +94,6 @@ nav a :hover{
     display: grid;
     grid-template-columns: repeat(10,1fr);
     grid-template-rows: repeat(6, 1fr)
-}
-main{
-    background-color: black;
 }
 main section{
     text-align: center;
