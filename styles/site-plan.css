@@ -114,6 +114,7 @@ nav a {
   padding:1em;
   min-width: 120px;
   text-decoration: none;
+  text-decoration-color: none;
   padding: 10px;
 
 }
