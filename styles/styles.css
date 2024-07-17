@@ -286,8 +286,10 @@ main section{
     grid-template-rows: repeat(6, 1fr);
 }
 .entry-img{
+    z-index: -1;
     filter: brightness(70%);
     width: 100%;
+    justify-self: center;
 }
 .entry-title{
     text-align: center;
@@ -305,6 +307,9 @@ main section{
 #entry-title1{
     grid-column: 1/2;
     grid-row: 1/2;
+    align-self: center;
+    font-size: 4em;
+    text-shadow: 5px 5px 10px white;
 }
 #entry-text1{
     grid-column: 1/2;
@@ -325,6 +330,7 @@ main section{
 #entry-img3{
     grid-column: 1/2;
     grid-row: 5/6;
+    align-self: center;
 }
 #entry-title3{
     grid-column: 1/2;
