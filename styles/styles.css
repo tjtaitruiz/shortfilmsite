@@ -289,6 +289,52 @@ main section{
     filter: brightness(70%);
     width: 100%;
 }
+.entry-title{
+    text-align: center;
+    font-size: 2em;
+    font-family: "Courier Prime", Helvetica, sans-serif;
+}
+.entry-text{
+    color: white;
+    font-family: "Courier Prime", Helvetica, sans-serif;
+}
+#entry-img1{
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+#entry-title1{
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+#entry-text1{
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+#entry-img2{
+    grid-column: 1/2;
+    grid-row: 3/4;
+}
+#entry-title2{
+    grid-column: 1/2;
+    grid-row: 3/4;
+}
+#entry-text2{
+    grid-column: 1/2;
+    grid-row: 4/5;
+}
+#entry-img3{
+    grid-column: 1/2;
+    grid-row: 5/6;
+}
+#entry-title3{
+    grid-column: 1/2;
+    grid-row: 5/6;
+}
+#entry-text3{
+    grid-column: 1/2;
+    grid-row: 6/7;
+}
+
 
 footer{
     background-color: #dda0ea;
